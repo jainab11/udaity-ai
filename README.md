@@ -1,2 +1,2 @@
-# udaity-ai
+# udacity -ai
 udacity 
