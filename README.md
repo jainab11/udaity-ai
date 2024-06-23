@@ -19,8 +19,8 @@ Running the Main Chat Loop
 while True:
 user_input = input("You: ")
 if user_input.lower() == "quit":
-  print("Bot: Goodbye!")
-  break
+print("Bot: Goodbye!")
+break
 response = get_bot_response(user_input)
 print(f"Bot: {response}")
 while True: starts an infinite loop. This allows the chatbot to continue running and responding to user input until it's explicitly told to stop.
